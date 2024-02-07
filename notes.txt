@@ -10,12 +10,13 @@ Log entry
 
 NPC listing
 <h3>Name</h3>
+<img src="" alt="" height="200" />
 <ul>
 <li>Race:</li>
 <li>Gender:</li>
 <li>Age:</li>
 <li>Class:</li>
-<Known Affiliations:</li>
+<li>Known Affiliations:</li>
 </ul>
 
 <h4>Description</h4>
@@ -23,5 +24,6 @@ NPC listing
 
 <h4>Backround</h4>
 <p></p>
+
 ---
 
