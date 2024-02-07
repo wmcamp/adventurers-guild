@@ -26,16 +26,16 @@ Campaigns:
 [x]List of campaign locations (12/4/23)
 --[]Amphail
 ---[]Logs
----[]Envolved PCs
----[]Envolved NPCs
+---[]Involved PCs
+---[]Involved NPCs
 --[]Loudwater
 ---[]Logs
----[]Envolved PCs
----[]Envolved NPCs
---[]Saltmarsh
----[]Logs
----[]Envolved PCs
----[]Envolved NPCs
+---[]Involved PCs
+---[]Involved NPCs
+--[X]Saltmarsh (2/7/24)
+---[X]Logs (2/7/24)
+---[]Involved PCs
+---[]Involved NPCs
 
 Players:
 []Creation of Party Lists
