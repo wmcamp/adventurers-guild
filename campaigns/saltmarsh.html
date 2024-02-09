@@ -39,8 +39,12 @@
               
               // Render filtered NPCs
               saltmarshResidents.forEach(npc => {
-                listnpc.insertAdjacentHTML('beforeend', `<li>${npc.name}</li>`);
-              });
+                listnpc.insertAdjacentHTML('beforeend', `
+                <li>
+                  <h4>${npc.name}</h4>
+                  <img src="${npc.images[0]}" alt=${npc.name} Image" height="100">
+                </li>
+                `);
             });
         </script> 
         </div>
