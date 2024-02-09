@@ -22,6 +22,27 @@
 <a href="../campaigns/saltmarsh/locations.html">Locations</a>
 <br>
 <img src="../images/Saltmarsh_map.png" alt="Saltmarsh" height="500" />
-    </br>    
+    </br> 
+    <div>
+    <h3>Saltmarsh Residents</h3>
+
+        <ul id="saltmarshResidents"></ul>
+
+        <script>
+          const listnpc = document.getElementById('saltmarshResidents'); // Changed the ID to be more descriptive
+
+          fetch('/npc.json')
+            .then(res => res.json())
+            .then(data => {
+              // Filter NPCs who reside in Saltmarsh
+              const saltmarshResidents = data.filter(npc => npc.residentOf === 'Saltmarsh');
+              
+              // Render filtered NPCs
+              saltmarshResidents.forEach(npc => {
+                listnpc.insertAdjacentHTML('beforeend', `<li>${npc.name}</li>`);
+              });
+            });
+        </script> 
+        </div>  
 </body>
 </html>
