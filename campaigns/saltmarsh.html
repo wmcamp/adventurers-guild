@@ -31,7 +31,7 @@
         <script>
           const listnpc = document.getElementById('saltmarshResidents'); // Changed the ID to be more descriptive
 
-          fetch('wmcamp/adventurers_guild/npc.json')
+          fetch('wmcamp/adventurers_guild/notes.txt')
             .then(res => res.json())
             .then(data => {
               // Filter NPCs who reside in Saltmarsh
@@ -39,12 +39,8 @@
               
               // Render filtered NPCs
               saltmarshResidents.forEach(npc => {
-                listnpc.insertAdjacentHTML('beforeend', `
-                <li>
-                  <h4>${npc.name}</h4>
-                  <img src="${npc.images[0]}" alt=${npc.name} Image" height="100">
-                </li>
-                `);
+                listnpc.insertAdjacentHTML('beforeend', `<li>${npc.name}</li>`);
+              });
             });
         </script> 
         </div>
