@@ -10,11 +10,14 @@ Log entry
 
 NPC listing
 <h3>Name</h3>
-<img src="" alt="" height="200" />
+<img src="../../" alt="" height="200" />
 <ul>
 <li>Race:</li>
 <li>Gender:</li>
 <li>Age:</li>
+<ul><li>Born:</li>
+  <li>Died:</li>
+</ul>
 <li>Class:</li>
 <li>Known Affiliations:</li>
 </ul>
@@ -27,3 +30,43 @@ NPC listing
 
 ---
 
+
+NPC JSON format
+,
+{
+    "id":"",
+    "name":"",
+    "status":"",
+    "currentLocation":"",
+    "currentActivity":"",
+    "residentOf":"",
+    "birthplace":"",
+    "age":"",
+    "born":"",
+    "died":"",
+    "gender":"",
+    "race":"",
+    "class":"",
+    "knownAffiliations":"",
+    "languages":"",
+    "images":[""]
+}
+
+Read and Filter from JSON 
+<ul id="*uniqueID*"></ul>
+
+        <script>
+          const listnpc = document.getElementById('*uniqueID*'); // Changed the ID to be more descriptive
+
+          fetch('/npc.json')
+            .then(res => res.json())
+            .then(data => {
+              // Filter NPCs who reside in Saltmarsh
+              const *uniqueID* = data.filter(npc => npc.*selector* === 'Saltmarsh');
+              
+              // Render filtered NPCs
+              *uniqueID*.forEach(npc => {
+                listnpc.insertAdjacentHTML('beforeend', `<li>${npc.name}</li>`);
+              });
+            });
+        </script> 
