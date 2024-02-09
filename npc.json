@@ -15,7 +15,7 @@
     "class":"Noble",
     "knownAffiliations":"Saltmarsh Council",
     "languages":"Common",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Anders%20Solmor.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Anders%20Solmor.png"]
 
 
 },
@@ -35,7 +35,7 @@
     "class":"Commoner",
     "knownAffiliations":"Saltmarsh Council, Saltmarsh Tradionalists",
     "languages":"Common",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Eda%20Oweland.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Eda%20Oweland.png"]
 
 
 },
@@ -55,7 +55,7 @@
     "class":"Fighter",
     "knownAffiliations":"Saltmarsh Council, Saltmarsh Loyalists",
     "languages":"Common, Dwarvish",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Eliander%20Fireborn.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Eliander%20Fireborn.png"]
 
 
 },
@@ -75,7 +75,7 @@
     "class":"Noble",
     "knownAffiliations":"Saltmarsh Council, Saltmarsh Tradionalists",
     "languages":"Common",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Gellan%20Primewater.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Gellan%20Primewater.png"]
 
 
 },
@@ -95,7 +95,7 @@
     "class":"Commoner",
     "knownAffiliations":"Dunwater",
     "languages":"Draconic",
-    "images":"http://127.0.0.1:5500/images/Sauriv.png"
+    "images":["http://127.0.0.1:5500/images/Sauriv.png"]
 
 
 },
@@ -115,7 +115,7 @@
     "class":"Fighter",
     "knownAffiliations":"Saltmarsh Council, Saltmarsh Loyalists",
     "languages":"Common, Dwarvish",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Manistrad%20Copperlocks.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Manistrad%20Copperlocks.png"]
 },
 {
     "id":"7",
@@ -133,7 +133,7 @@
     "class":"Rogue",
     "knownAffiliations":"Anders Solmor",
     "languages":"Common, Cormanthan(Tharian), Zhentarim Argot",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Skerrin%20Windchaser.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Skerrin%20Windchaser.png"]
 },
 {
     "id":"8",
@@ -151,7 +151,7 @@
     "class":"Fighter",
     "knownAffiliations":"The Empty Net, Kreb Shenker",
     "languages":"Common, Illuskan, Carcharic",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Cragfin.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Cragfin.png"]
 },
 {
     "id":"9",
@@ -169,7 +169,7 @@
     "class":"Commoner",
     "knownAffiliations":"The Snapping Line",
     "languages":"Common",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Hanna%20Rist.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Hanna%20Rist.png"]
 },
 {
     "id":"10",
@@ -187,7 +187,7 @@
     "class":"Thug",
     "knownAffiliations":"The Empty Net",
     "languages":"Common, Illuskan",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Kreb%20Shenker.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Kreb%20Shenker.png"]
 },
 {
     "id":"11",
@@ -205,7 +205,7 @@
     "class":"veteran",
     "knownAffiliations":"Waterdeep, Saltmarsh, The Wicker Goat",
     "languages":"Common, Dwarvish",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Lankus%20Kurrid.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Lankus%20Kurrid.png"]
 },
 {
     "id":"12",
@@ -223,7 +223,7 @@
     "class":"Fighter",
     "knownAffiliations":"Neverwinter, Lord's Alliance",
     "languages":"Common, Illuskan, Elvish",
-    "images":"https://wmcamp.github.io/adventurers_guild/images/Lord%20Nasher%20Alagondar.png"
+    "images":["https://wmcamp.github.io/adventurers_guild/images/Lord%20Nasher%20Alagondar.png"]
 }
 
 ]
