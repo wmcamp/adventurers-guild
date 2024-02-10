@@ -31,7 +31,7 @@
         <script>
           const listnpc = document.getElementById('saltmarshResidents'); // Changed the ID to be more descriptive
 
-          fetch('./wmcamp/adventurers-guild/npc.json')
+          fetch('./npc.json')
             .then(res => res.json())
             .then(data => {
               // Filter NPCs who reside in Saltmarsh
