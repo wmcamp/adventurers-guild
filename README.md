@@ -23,3 +23,10 @@
 <p>This landing page provides a list of campaigns that have been carried out in our instance of the universe. There is a calendar provided to allow players to feel the passage of time and see recent events. Following the links to the individual campgain pages, players will find session logs, NPC lists, and location links.</p>
 <h3>Ghosts of Saltmarsh</h3>
 <p>Ghosts of Saltmarsh is a WOTC published adventure that we have set in Fearun during the year 1372 Dale Reconning. Began in the winter of 2022-23, the campaign has extended beyond the titular Ghost adventure and pursues several plot lines that are centered in Saltmarsh. While these plot lines or adventures are stand alone, they are included in the campaigns based in Saltmarsh.
+
+<h2>Players</h2>
+<p>Still under constructions</p>
+<p>On the Player landing page, players will be able to login to their personal profiles, see a list of Character milestones (Birthdays, anniversaries, major achievements, and the like), and reminisce over fallen commrades at the "In Memorium" where PCs who have died are listed.</p>
+
+<h3>Beyond the login</h3>
+<p>Upon logging in, a player will be provided with a list of their characters profiles. These profiles will inclued embeded character sheets from dndbeyond, a journal for taking notes or recording their adventures from their character's POV, and a messaging/email system to allow PCs to communicate with other PCs or NPCs for further immersion.</p>
